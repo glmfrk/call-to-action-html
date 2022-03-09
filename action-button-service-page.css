@@ -1,0 +1,64 @@
+.ctapost-box {
+  border: 2px dashed #1991e6;
+  background: #fff;
+  border-radius: 5px;
+  margin: 20px 0 40px;
+  padding: 50px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.ctapost-box h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  border-radius: 10px;
+  color: #1991e6;
+  font-size: 32px;
+}
+.ctapost-box a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  margin: 0 auto;
+  margin-top: 40px;
+  max-width: 200px;
+  display: block;
+  background: #1991e6;
+  border-radius: 5px;
+  border: 1px solid #1991e6;
+  text-decoration: none;
+  transition: all 0.4s linear;
+}
+.ctapost-box a:hover {
+  border: 1px solid #1991e6;
+  background-color: #fff;
+  color: #1991e6;
+}
+
+.free-consult {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  display: block;
+  width: 100%;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #fff;
+  border-radius: 5px;
+  background: #1991e6;
+  transition: all 0.4s linear;
+}
+.free-consult:hover {
+  color: #fff;
+}
+@media (max-width: 767px) {
+  .free-consult {
+    font-size: 18px;
+    padding: 12px 30px;
+  }
+}
